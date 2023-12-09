@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: burlywood;
+}
+.container{
+    margin: 30px 50px;
+}
+
+.container h2{
+    margin: 10px 0;
+}
+
+.container ul{
+    margin-left: 30px;
+}
+
+.input, .bouton{
+    margin: 15px 0;
+    height: 2.5rem;
+    padding: 10px;
+    border: 1px solid #8d8989;
+    border-radius: 5px;
+    background-color: rgb(240, 228, 214);
+}
+
+.bouton:hover{
+    background-color: burlywood;
+    border: 1px;
+}
+
